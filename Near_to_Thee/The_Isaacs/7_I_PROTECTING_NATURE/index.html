@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character set -->
+    <meta charset="UTF-8">
+
+    <!-- Page Title -->
+    <title>Remind Me Dear Lord</title>
+
+    <!-- JavaScript with defer attribute for faster page loading -->
+    <script defer src="script.js"></script>
+
+   
+    <!-- Prevent duplicate meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Stylesheet link with corrected file name -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+
+
+<body>
+
+    
+    
+ 
+    <header>
+        <img src="mountain-7913365_1280.jpg" alt="recycling">
+        
+        <span class="logo">Song 1. Remind Me Dear Lord</span>
+        <div class="hamburger" onclick="toggleSidebar()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+
+    
+    <nav>
+        <a href="https://www.youtube.com/watch?v=HAZTKsAzTy4" target="_blank">Sung By <span style="font-weight: bold" >Terry Blackwood</span> on <span style="font-weight: bold">Gaither Music TV YouTube</span></a>
+    </nav>
+    
+    <nav>
+        
+        
+        <div class="dropdown">
+            <button class="dropbtn">Source
+              <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-content">
+              <a href="https://www.youtube.com/watch?v=HAZTKsAzTy4" target="_blank">YouTube</a>
+
+             <!--<a href="#">Korean</a>
+              <a href="#">French</a>
+              <a href="#">Spanish</a>-->
+            </div>
+        </div> 
+
+        <div class="dropdown">
+            <button class="dropbtn">Contact
+              <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-content">
+              <a href="https://www.youtube.com/@TheIsaacs/featured" target="_blank">Author</a>
+              <a href="#" target="_blank">Developer</a>
+
+             <!--<a href="#">Korean</a>
+              <a href="#">French</a>
+              <a href="#">Spanish</a>-->
+            </div>
+        </div> 
+
+        <div class="dropdown">
+            <button class="dropbtn">Language
+              <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-content">
+                <a href="#">Japanese</a>
+                <a href="#">Mandarin</a>
+                <a href="#">Korean</a>
+                <a href="#">French</a>
+                <a href="#">Spanish</a>
+            </div>
+        </div> 
+
+    
+
+    </nav>
+
+
+
+  
+
+    <div class="sidebar">
+        <a href="index.html" class="dropdown-toggle">Remind Me Dear Lord</a>
+        <a href="#" class="dropdown-toggle">Lesson 2</a>
+        <a href="#" class="dropdown-toggle">Lesson 3</a>
+        <hr>       
+        
+    </div>
+    
+    
+    
+    <div class="main-content">
+
+
+        <div id = "video" class="content">
+            <section id="part1">
+                <div class="part1">
+                    <div class="A-container">
+                        <div id="video-container">
+                            <div id="player"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>     
+        </div>
+
+        <div id = "transcript" class="content">
+            <div class="B-container">
+                <div id="transcript-container">
+                    <!-- Transcript lines will be added dynamically -->
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <!--This is for the phrases.-->
+
+       
+
+    </div>
+
+      
+<!-- HTML Structure -->
+<div id="options-container" style="display: none;">
+    <!-- Your options go here -->
+    <div class="option" onclick="scrollToTop()">Top</div>
+    <div class="option" style="font-weight:bold" onclick="scrollToElement('video', 30)">I. Listening</div>
+    <div class="option" onclick="scrollToElement('video', 30)">YouTube Video</div>
+    <div class="option" onclick="scrollToElement('transcript', 30)">Transcript</div>
+    <div class="option" id="pauseButton">Pause Video</div>
+    <div class="option" id="playButton">Play Video</div>
+    <div class="option" id="reloadPage">Load Video</div>
+    <div class="option" id="toggleButton">Adjust Video</div>
+
+
+
+</div>
+
+
+
+<!-- Go to Button -->
+<button id="go-to" onclick="toggleOptions()">Go to</button>
+
+
+    </div>
+
+    <footer>
+        <p>&copy; 2023 LESONCE. All rights reserved.</p>
+    </footer>
+
+
+    <script src="./script.js"></script>
+    <script src="./remindmedearlord.js"></script>
+
+</body>
+
+</html>
